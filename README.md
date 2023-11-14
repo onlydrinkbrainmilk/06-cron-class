@@ -6,3 +6,5 @@ I tried to send notifications to myself about the cat I have with my roommate ca
 ### Problems
 - adding the env file to the droplet.
 - touch .env does not work. It requires a name.
+### Future
+- put a weight sensor next to her toilet, bowl and little bed
