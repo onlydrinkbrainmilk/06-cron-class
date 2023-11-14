@@ -9,7 +9,7 @@ var push = new Pushover({
     token: process.env.APP_TOKEN,
     user: process.env.USER_KEY
 })
-cron.schedule('*/10 * * * * *', sendNotification)
+cron.schedule('0 * * * *', sendNotification)
 
 function sendNotification() {
     randomNum = Math.floor(Math.random()*9);
